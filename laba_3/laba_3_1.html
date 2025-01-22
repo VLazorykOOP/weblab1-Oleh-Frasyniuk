@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Інформація про підприємство</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        nav {
+            background-color: #007bff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            text-decoration: none;
+            color: white;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        h2 {
+            color: #007bff;
+        }
+        ul, ol, dl {
+            margin-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .company-info {
+            margin-top: 20px;
+        }
+        .company-info ul, .company-info ol, .company-info dl {
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<nav class="menu">
+    <a href="laba_3_1.html">Головна</a>
+    <a href="laba_3_2.html">Інформація про компанію</a>
+</nav>
+
+<main id="company-info">
+    <h1>Інформація про нашу фірму</h1>
+
+    <!-- Маркований список -->
+    <h2>Основні послуги:</h2>
+    <ul title="Послуги фірми" style="list-style-type: disc;">
+        <li id="service1" title="Послуга 1" style="color: #007bff;">Консультації в галузі бізнесу</li>
+        <li id="service2" title="Послуга 2">Розробка програмного забезпечення</li>
+        <li id="service3" title="Послуга 3" style="font-weight: bold;">Навчання та семінари</li>
+    </ul>
+
+    <!-- Нумерований список -->
+    <h2>Наші досягнення:</h2>
+    <ol title="Досягнення компанії" type="1" lang="uk">
+        <li id="achievement1" title="Досягнення 1">Виграли премію за інновації у 2023 році</li>
+        <li id="achievement2" title="Досягнення 2">Створили понад 100 програмних продуктів</li>
+        <li id="achievement3" title="Досягнення 3">Вийшли на міжнародний ринок</li>
+    </ol>
+
+    <!-- Список з визначеннями -->
+    <h2>Наші принципи:</h2>
+    <dl>
+        <dt title="Принцип 1" lang="uk">Інновації</dt>
+        <dd title="Опис принципу 1">Ми постійно шукаємо нові технології для розвитку бізнесу.</dd>
+        
+        <dt title="Принцип 2" lang="uk">Відповідальність</dt>
+        <dd title="Опис принципу 2">Ми несемо відповідальність за кожен проект, який реалізуємо.</dd>
+        
+        <dt title="Принцип 3" lang="uk">Партнерство</dt>
+        <dd title="Опис принципу 3">Ми розвиваємо довгострокові стосунки з нашими партнерами.</dd>
+    </dl>
+</main>
+
+</body>
+</html>
