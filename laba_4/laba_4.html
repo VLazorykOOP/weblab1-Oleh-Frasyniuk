@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Товари фірми</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: #f9f9f9;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+        }
+        caption {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Інформація про товари фірми</h1>
+
+    <!-- Перша таблиця -->
+    <table dir="ltr" bgcolor="#ffffff" summary="Загальна інформація про товари фірми" frame="box">
+        <caption title="Основна таблиця" class="main-table-caption">Список товарів</caption>
+        <thead>
+            <tr style="background-color: #e0e0e0;">
+                <th scope="col">Назва товару</th>
+                <th scope="col">Категорія</th>
+                <th scope="col">Ціна (грн)</th>
+                <th scope="col">Кількість на складі</th>
+            </tr>
+        </thead>
+        <tbody title="Товари фірми" align="center" char=".">
+            <tr title="Перший товар" lang="uk">
+                <td lang="uk" width="25%" bgcolor="#f0f0f0" headers="name">Ноутбук</td>
+                <td lang="uk" width="25%" bgcolor="#f0f0f0" headers="category">Електроніка</td>
+                <td lang="uk" width="25%" bgcolor="#f0f0f0" headers="price">25000</td>
+                <td lang="uk" width="25%" bgcolor="#f0f0f0" headers="stock">15</td>
+            </tr>
+            <tr title="Другий товар" lang="uk">
+                <td lang="uk" width="25%" bgcolor="#ffffff" headers="name">Смартфон</td>
+                <td lang="uk" width="25%" bgcolor="#ffffff" headers="category">Електроніка</td>
+                <td lang="uk" width="25%" bgcolor="#ffffff" headers="price">18000</td>
+                <td lang="uk" width="25%" bgcolor="#ffffff" headers="stock">30</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Друга таблиця з геометричною структурою -->
+    <table dir="ltr" bgcolor="#ffffff" summary="Геометрична структура таблиці" frame="void">
+        <caption title="Таблиця-структура" class="structured-table-caption">Геометрична таблиця</caption>
+        <colgroup lang="uk" span="3"></colgroup>
+        <tbody id="structured-body" title="Геометрія" lang="uk">
+            <tr title="Рядок 1" style="background-color: #e0e0e0;">
+                <td colspan="2" lang="uk" width="50%" bgcolor="#d0d0d0">Злиття колонок</td>
+                <td lang="uk">Окремо</td>
+            </tr>
+            <tr title="Рядок 2">
+                <td rowspan="2" lang="uk" width="25%" bgcolor="#d0f0d0">Злиття рядків</td>
+                <td lang="uk" width="25%" bgcolor="#f0d0d0">Клітинка 2</td>
+                <td lang="uk" width="50%" bgcolor="#d0d0f0">Клітинка 3</td>
+            </tr>
+            <tr title="Рядок 3">
+                <td colspan="2" lang="uk" bgcolor="#f0f0f0">Злиття 2 колонок</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
