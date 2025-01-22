@@ -1,0 +1,120 @@
+/* Загальні стилі для сторінки */
+body {
+    background-color: #99FFCC;
+    color: #006600;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #003300;
+}
+
+/* Абзаци */
+p {
+    text-align: justify;
+    font-size: 1em;
+    margin: 10px 15%;
+}
+
+/* Стиль для секцій */
+.section-title {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-top: 20px;
+    color: #003300;
+}
+
+.underline {
+    border-top: 1px solid #003300;
+    width: 50%;
+    margin: 20px auto;
+}
+
+/* Підпис */
+.signature {
+    font-style: italic;
+    font-size: 1em;
+    color: #003300;
+    margin-top: 20px;
+}
+
+/* Виділений текст */
+.highlight {
+    color: #FF0000;
+    font-weight: bold;
+}
+
+/* Вибір першого дочірнього елементу */
+h1:first-child {
+    color: #FF6600;
+}
+
+/* Селектор атрибуту: для посилання на електронну пошту */
+a[href^="mailto:"] {
+    color: #0066CC;
+    text-decoration: none;
+}
+
+/* Стиль для елементів всередині .underline */
+.underline p {
+    margin: 0;
+    padding: 5px;
+}
+
+/* Псевдоелемент для першого рядка */
+p::first-line {
+    font-weight: bold;
+    color: #003300;
+}
+
+body {
+    background-color: #99FFCC;
+    color: #006600;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #003300;
+}
+p {
+    text-align: justify;
+    font-size: 1em;
+    margin: 10px 15%;
+}
+.section-title {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-top: 20px;
+    color: #003300;
+}
+.underline {
+    border-top: 1px solid #003300;
+    width: 50%;
+    margin: 20px auto;
+}
+.signature {
+    font-style: italic;
+    font-size: 1em;
+    color: #003300;
+    margin-top: 20px;
+}
+.highlight {
+    color: #FF0000;
+    font-weight: bold;
+}

@@ -1,0 +1,168 @@
+/* Загальні стилі для сторінки */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6f2f2;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Контейнер для основного вмісту */
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+/* Заголовок */
+header {
+    background-color: #d3e6e6;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.8em;
+    color: #336699;
+    font-weight: bold;
+}
+
+/* Навігаційне меню */
+nav {
+    background-color: #b0c4de;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 15px;
+    color: #336699;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Контейнер для новин */
+.news-container {
+    display: flex;
+    margin-top: 20px;
+}
+
+/* Бічна панель */
+.news-sidebar {
+    width: 30%;
+    padding: 10px;
+    background-color: #e6f2f2;
+}
+
+/* Основна частина новин */
+.news-main {
+    width: 70%;
+    padding: 10px;
+}
+
+/* Стиль для новинних елементів */
+.news-item {
+    margin-bottom: 20px;
+}
+
+.news-item h2 {
+    color: #336699;
+    font-size: 1.2em;
+}
+
+.news-item p {
+    color: #333;
+}
+
+/* Стиль для футера */
+footer {
+    background-color: #b0c4de;
+    padding: 10px;
+    text-align: center;
+    color: #333;
+    font-size: 0.9em;
+}
+
+/* Псевдоклас для першого елементу списку */
+ul li:first-child {
+    font-weight: bold;
+}
+
+/* Псевдоклас активного посилання */
+a:active {
+    color: #FF6600;
+}
+
+/* Стилі для зображення в бічній панелі */
+.news-sidebar img {
+    width: 100%;
+    margin-top: 10px;
+}
+
+/* Стиль для кнопки з псевдокласом "disabled" */
+button:disabled {
+    background-color: #d3d3d3;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6f2f2;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+}
+header {
+    background-color: #d3e6e6;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.8em;
+    color: #336699;
+    font-weight: bold;
+}
+nav {
+    background-color: #b0c4de;
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    margin: 0 15px;
+    color: #336699;
+    text-decoration: none;
+    font-weight: bold;
+}
+.news-container {
+    display: flex;
+    margin-top: 20px;
+}
+.news-sidebar {
+    width: 30%;
+    padding: 10px;
+    background-color: #e6f2f2;
+}
+.news-main {
+    width: 70%;
+    padding: 10px;
+}
+.news-item {
+    margin-bottom: 20px;
+}
+.news-item h2 {
+    color: #336699;
+    font-size: 1.2em;
+}
+.news-item p {
+    color: #333;
+}
+footer {
+    background-color: #b0c4de;
+    padding: 10px;
+    text-align: center;
+    color: #333;
+    font-size: 0.9em;
+}

@@ -1,0 +1,119 @@
+/* Загальні стилі для сторінки */
+body {
+    font-family: Arial, sans-serif;
+    color: #000;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #000;
+    background-color: #fff;
+}
+
+h1 {
+    font-size: 2em;
+    text-align: center;
+    font-weight: bold;
+}
+
+.intro {
+    text-align: center;
+    font-style: italic;
+    color: #336699;
+    font-size: 1.1em;
+    margin: 15px 0;
+}
+
+/* Секції і заголовки */
+.section-title {
+    font-weight: bold;
+    color: #336699;
+    margin-top: 20px;
+}
+
+.underline {
+    border-top: 1px solid #000;
+    margin: 20px 0;
+}
+
+/* Виділений текст */
+.highlight {
+    color: #FF0000;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Список контактів */
+.contact-info {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.contact-info ul, .contact-info ol {
+    list-style-position: inside;
+}
+
+/* Стилі для елементів списку */
+.contact-info li {
+    margin-bottom: 10px;
+}
+
+/* Псевдоклас для наведеного на елемент посилання */
+a:hover {
+    color: #FF6600;
+}
+
+/* Стиль для псевдокласу enabled */
+button:enabled {
+    background-color: #336699;
+    color: #fff;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #000;
+    background-color: #f4f4f4;
+}
+.container {
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #000;
+    background-color: #fff;
+}
+h1 {
+    font-size: 2em;
+    text-align: center;
+    font-weight: bold;
+}
+.intro {
+    text-align: center;
+    font-style: italic;
+    color: #336699;
+    font-size: 1.1em;
+    margin: 15px 0;
+}
+.section-title {
+    font-weight: bold;
+    color: #336699;
+    margin-top: 20px;
+}
+.underline {
+    border-top: 1px solid #000;
+    margin: 20px 0;
+}
+.highlight {
+    color: #FF0000;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.contact-info {
+    margin-top: 20px;
+    text-align: center;
+}
+.contact-info ul, .contact-info ol {
+    list-style-position: inside;
+}
